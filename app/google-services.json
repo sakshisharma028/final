@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "82504048883",
+    "firebase_url": "https://chat-forum-a779f.firebaseio.com",
+    "project_id": "chat-forum-a779f",
+    "storage_bucket": "chat-forum-a779f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82504048883:android:fc6cc039c48eee1f",
+        "android_client_info": {
+          "package_name": "com.example.lavisha.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82504048883-tbt9lmsev7l24sjmnmub6ecfoa0nmesh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lavisha.project",
+            "certificate_hash": "c847f03e9f47bd27df7567ec754948c4ffb95f2a"
+          }
+        },
+        {
+          "client_id": "82504048883-26jumofh0u4hnfusilao8bbio16ge2n7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpVl5Zq3bsobZ_dvH0ZCikJaaLJOclR4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82504048883-26jumofh0u4hnfusilao8bbio16ge2n7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

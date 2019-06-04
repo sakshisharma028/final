@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/due_date"
+        app:layout_constraintTop_toTopOf="@+id/layout_meta"
+        tools:text="Reminder Description" />
+
+    <TextView
+        android:id="@+id/due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_description"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        tools:layout_editor_absoluteX="294dp"
+        tools:text="Due Date: Apr28" />
+
+    <LinearLayout
+        android:id="@+id/layout_meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="19dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:contentDescription="@string/ct_dsc_priority"
+            android:padding="@dimen/activity_horizontal_margin"
+            tools:src="@drawable/ic_priority" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
